@@ -6,13 +6,19 @@
 git clone https://github.com/tomas-rojo/flask-docker-redis-nginx-template.git flask_app
 ```
 
-## Start docker:
+## Enter to Directory:
+
+```
+cd flask_app
+```
+
+## Start Docker:
 
 ```
 docker-compose up -d --build 
 ```
 
-## Or start docker with multiple servers (eg. 3):
+## Or start Docker with multiple servers (eg. 3):
 
 ```
 docker-compose up -d --build --scale flask_app=3
