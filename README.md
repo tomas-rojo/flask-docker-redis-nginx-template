@@ -23,3 +23,6 @@ docker-compose up -d --build
 ```
 docker-compose up -d --build --scale flask_app=3
 ```
+
+Go to localhost
+If everything goes fine, you should see your Flask app at localhost.
